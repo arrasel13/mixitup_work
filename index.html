@@ -1,61 +1,118 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS Links -->
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/media.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Mixit UP Filter</title>
-  </head>
-  <body>
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/media.css">
 
-    <section class="mixit_up_filter">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-10">
-            
-            <div class="controls">
-              <button type="button" class="control" data-filter="all">All</button>
-              <button type="button" class="control" data-filter=".green">Green</button>
-              <button type="button" class="control" data-filter=".blue">Blue</button>
-              <button type="button" class="control" data-filter=".pink">Pink</button>
-              <button type="button" class="control" data-filter="none">None</button>
-  
-              <button type="button" class="control" data-sort="default:asc">Asc</button>
-              <button type="button" class="control" data-sort="default:desc">Desc</button>
-            </div>
+  <title>Mixit Up</title>
+</head>
 
-            <div class="container">
-              <div class="mix green">Green1</div>
-              <div class="mix green">Green2</div>
-              <div class="mix blue">Blue1</div>
-              <div class="mix pink">Pink1</div>
-              <div class="mix green">Green3</div>
-              <div class="mix blue">Blue2</div>
-              <div class="mix pink">Pink2</div>
-              <div class="mix blue">Blue3</div>
-  
-              <div class="gap">Gap1</div>
-              <div class="gap">Gap2</div>
-              <div class="gap">Gap3</div>
-            </div>
+<body>
 
+  <section class="mixit_filter_gallery my-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="mixit_filter_tab text-center mixitup_controls">
+            <button class="btn cust_btn" data-filter="all">All</button>
+            <button class="btn cust_btn" data-filter=".image1">Image-1</button>
+            <button class="btn cust_btn" data-filter=".image2">Image-2</button>
+            <button class="btn cust_btn" data-filter=".image3">Image-3</button>
+            <button class="btn cust_btn" data-filter=".image4">Image-4</button>
+            <button class="btn cust_btn" data-filter=".image5">Image-5</button>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- JS Links -->
-    <script src="assets/js/jquery_3.6.0.min.js"></script>
-    <script src="assets/vendor/mixitup/js/mixitup.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    
-  </body>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="mixit_filter_items">
+            <div class="row">
+              <div class="col-lg-3 cust_space mix image1">
+                <div class="fixed_hw">
+                  <div class="filter_img">
+                    <img class="img-fluid" src="assets/images/image-1.jpeg" alt="Image1">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 cust_space mix image2">
+                <div class="filter_img">
+                  <img class="img-fluid" src="assets/images/image-2.jpeg" alt="Image2">
+                </div>
+              </div>
+              <div class="col-lg-3 cust_space mix image3">
+                <div class="filter_img">
+                  <img class="img-fluid" src="assets/images/image-3.jpeg" alt="Image3">
+                </div>
+              </div>
+              <div class="col-lg-3 cust_space mix image4">
+                <div class="filter_img">
+                  <img class="img-fluid" src="assets/images/image-4.jpeg" alt="Image4">
+                </div>
+              </div>
+              <div class="col-lg-3 cust_space mix image5">
+                <div class="filter_img">
+                  <img class="img-fluid" src="assets/images/image-5.jpeg" alt="Image5">
+                </div>
+              </div>
+              <div class="col-lg-3 cust_space mix image3">
+                <div class="filter_img">
+                  <img class="img-fluid" src="assets/images/image-3.jpeg" alt="Image3">
+                </div>
+              </div>
+              <div class="col-lg-3 cust_space mix image4">
+                <div class="filter_img">
+                  <img class="img-fluid" src="assets/images/image-4.jpeg" alt="Image4">
+                </div>
+              </div>
+              <div class="col-lg-3 cust_space mix image5">
+                <div class="filter_img">
+                  <img class="img-fluid" src="assets/images/image-5.jpeg" alt="Image5">
+                </div>
+              </div>
+              <div class="col-lg-3 cust_space mix image2">
+                <div class="filter_img">
+                  <img class="img-fluid" src="assets/images/image-2.jpeg" alt="Image4">
+                </div>
+              </div>
+              <div class="col-lg-3 cust_space mix image1">
+                <div class="filter_img">
+                  <img class="img-fluid" src="assets/images/image-1.jpeg" alt="Image1">
+                </div>
+              </div>
+              <div class="col-lg-3 cust_space mix image3">
+                <div class="filter_img">
+                  <img class="img-fluid" src="assets/images/image-3.jpeg" alt="Image3">
+                </div>
+              </div>
+              <div class="col-lg-3 cust_space mix image4">
+                <div class="filter_img">
+                  <img class="img-fluid" src="assets/images/image-4.jpeg" alt="Image4">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- JS Links -->
+  <script src="assets/js/jquery_3.6.0.min.js"></script>
+  <script src="assets/vendor/mixitup/js/mixitup.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+
+</body>
+
 </html>
